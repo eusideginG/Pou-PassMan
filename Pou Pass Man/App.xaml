@@ -1,0 +1,23 @@
+﻿<Application x:Class="Pou_Pass_Man.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Pou_Pass_Man"
+             StartupUri="UserAuthentication.xaml"
+             Exit="Application_Exit">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Views/Styles/DictionaryColors.xaml"/>
+                <ResourceDictionary Source="Views/Styles/DictionaryButton.xaml"/>
+                <ResourceDictionary Source="Views/Styles/DictionaryButtonRoundedCorners.xaml"/>
+                <ResourceDictionary Source="Views/Styles/DictionaryIcons.xaml"/>
+                <ResourceDictionary Source="Views/Styles/DictionaryTextBlock.xaml"/>
+                <ResourceDictionary Source="Views/Styles/DictionaryInputHint.xaml"/>
+                <ResourceDictionary Source="Views/Styles/DictionaryClickableTextBlock.xaml"/>
+                <ResourceDictionary Source="Views/Styles/DictionaryModernInput.xaml"/>
+                <ResourceDictionary Source="Views/Styles/DictionaryRoundedBorder.xaml"/>
+                <ResourceDictionary Source="Views/Styles/DictionaryListView.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
