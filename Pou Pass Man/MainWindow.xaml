@@ -136,7 +136,7 @@
                     </ListView.ItemTemplate>
                 </ListView>
 
-                <Border Grid.Column="1" BorderThickness="2,0,0,0" BorderBrush="{StaticResource MainColor}" Padding="8" Background="{StaticResource BackgroundLight}">
+                <Border Grid.Column="1" BorderThickness="2,0,0,0" BorderBrush="{StaticResource MainColor}" Padding="8" Background="{StaticResource BackgroundLight}" CornerRadius="0,0,15,0">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="50*"/>
